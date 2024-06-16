@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "question": "npm install react-scripts@latest",
+      "choices": ["Siliconnpx create-react-app appname", "npm install create-react-app", "npx install create-react-app -g", "install - l create-react-app "],
+      "answer": "npx create-react-app appname"
+    },
+    {
+      "question": "In React.js which one of the following is used to create a class for Inheritance ?",
+      "choices": ["Create", "Extends", "Inherits", "Delete"],
+      "answer": "Extends"
+    },
+    {
+      "question": "What is the default port number in which the application run ?",
+      "choices": ["3000", "8080", "5000", "3030"],
+      "answer": "3000"
+    },
+    {
+      "question": "Which of the following valid component return type of React ?",
+      "choices": ["2", "5", "1", "3"],
+      "answer": "1"
+    },
+    {
+      "question": "Which of the following is a way to handle data in React.js ?",
+      "choices": ["State & Props", "Services & Components", "State & Services", "State & Component"],
+      "answer": "State & Props"
+    },
+    {
+      "question": "Which of the following is must for the API in React.js ?",
+      "choices": ["SetinitialComponent", "renderComponent", "render", "All of the above"],
+      "answer": "renderComponent"
+    },
+    {
+      "question": "Which of the following is true regarding Babel ?",
+      "choices": ["Compiler", "Transpilar", "Both of the above", "None of the above"],
+      "answer": "Both of the above"
+    },
+    {
+      "question": "In React.js, how we can pass the data from one component to another in React.js ?",
+      "choices": ["SetState", "Render with arguments", "Props", "PropTypes"],
+      "answer": "Props"
+    },
+    {
+      "question": "Which of the following function is true about changing the state in React.js ?",
+      "choices": ["this.State{}", "this.setState", "this.setChangeState", "All of the above"],
+      "answer": "this.setState"
+    },
+    {
+      "question": "Which of the following method is true about referring parent class in React.js ?",
+      "choices": ["self()", "inherits()", "this()", "super()"],
+      "answer": "super()"
+    }
+  ]
+}

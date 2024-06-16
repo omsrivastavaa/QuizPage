@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Quizz App</title>
+    <style>
+      #popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: rgb(14, 151, 236);
+        border: 1px solid black;
+        z-index: 1000;
+      }
+      #popup.show {
+        display: block;
+      }
+      #test {
+        display: none;
+      }
+      #test.show {
+        display: block;
+      }
+      #popup{
+        background-color: #7cc6fe;
+      }
+      #fullScreenButton{
+        background-color: rgb(131, 5, 189);
+        color: white;
+        border: 2px solid black;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="popup">
+      <p>Please enable full screen to take the test.</p>
+      <button id="fullScreenButton">Go Full Screen</button>
+    </div>
+    <div id="test">
+      <h1>Test Content</h1>
+      <p>Here is your test...</p>
+    </div>
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
